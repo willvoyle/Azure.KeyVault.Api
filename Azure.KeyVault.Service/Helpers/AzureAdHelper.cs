@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace Azure.KeyVault.Service.Helpers
 {
-    internal class AzureAdHelper : IAzureAdHelper
+    public class AzureAdHelper : IAzureAdHelper
     {
         private readonly IConfigHelper _configHelper;
 

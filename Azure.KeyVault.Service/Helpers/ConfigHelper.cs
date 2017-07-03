@@ -3,7 +3,7 @@ using System.Configuration;
 
 namespace Azure.KeyVault.Service.Helpers
 {
-    class ConfigHelper : IConfigHelper
+    public class ConfigHelper : IConfigHelper
     {
         public string KeyVaultBaseUrl { get => ConfigurationManager.AppSettings["KeyVaultBaseUrl"]; }
         public string ClientId { get => ConfigurationManager.AppSettings["ClientId"]; }

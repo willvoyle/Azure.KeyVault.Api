@@ -1,6 +1,6 @@
 ﻿namespace Azure.KeyVault.Service.Interfaces
 {
-    internal interface IConfigHelper
+    public interface IConfigHelper
     {
         string KeyVaultBaseUrl { get; }
         string ClientId { get; }

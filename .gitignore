@@ -1,3 +1,7 @@
 Azure.KeyVault.Service/obj/
 Azure.KeyVault.Test/obj/
 .vs/
+/Azure.KeyVault.Service/bin/Debug
+/Azure.KeyVault.Test/bin/Debug
+/packages
+/packages

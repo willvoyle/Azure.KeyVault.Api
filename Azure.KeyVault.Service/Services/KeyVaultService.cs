@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Azure.KeyVault.Service.Services
 {
-    internal class KeyVaultService : KeyVaultServiceBase, IKeyVaultService
+    public class KeyVaultService : KeyVaultServiceBase, IKeyVaultService
     {
         private readonly IConfigHelper _configHelper;
 

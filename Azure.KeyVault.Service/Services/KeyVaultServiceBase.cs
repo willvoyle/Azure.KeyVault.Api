@@ -4,7 +4,7 @@ using System.Net.Http;
 
 namespace Azure.KeyVault.Service.Services
 {
-    internal abstract class KeyVaultServiceBase
+    public abstract class KeyVaultServiceBase
     {
         private readonly IAzureAdHelper _azureAdHelper;
 

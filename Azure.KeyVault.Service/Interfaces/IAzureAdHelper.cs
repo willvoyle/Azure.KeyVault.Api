@@ -2,7 +2,7 @@
 
 namespace Azure.KeyVault.Service.Interfaces
 {
-    interface IAzureAdHelper
+    public interface IAzureAdHelper
     {
         Task<string> GetAdAccessToken(string authority, string resource, string scope);
     }
